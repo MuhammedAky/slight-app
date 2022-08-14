@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import conn from './db.js';
+import conn from './database';
 import cookieParser from 'cookie-parser';
 import methodOverride from 'method-override';
 import pageRoute from './routes/pageRoute.js';
